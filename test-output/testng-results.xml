@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-13T00:27:06 IST" name="exam Suite" finished-at="2023-01-13T00:27:47 IST" duration-ms="40365">
+    <groups>
+    </groups>
+    <test started-at="2023-01-13T00:27:06 IST" name="Add To Application" finished-at="2023-01-13T00:27:47 IST" duration-ms="40365">
+      <class name="com.avonet.exam_testCases.AddingAndRemovingItems">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.avonet.exam_testCases.AddingAndRemovingItems@130161f7]" started-at="2023-01-13T00:27:06 IST" name="login" data-provider="loginData" finished-at="2023-01-13T00:27:47 IST" duration-ms="40333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.avonet.exam_testCases.AddingAndRemovingItems -->
+    </test> <!-- Add To Application -->
+  </suite> <!-- exam Suite -->
+</testng-results>
