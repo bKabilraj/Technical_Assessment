@@ -2,12 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-13T00:27:06 IST" name="exam Suite" finished-at="2023-01-13T00:27:47 IST" duration-ms="40365">
+  <suite started-at="2023-01-14T10:34:24 IST" name="exam Suite" finished-at="2023-01-14T10:34:34 IST" duration-ms="9222">
     <groups>
     </groups>
-    <test started-at="2023-01-13T00:27:06 IST" name="Add To Application" finished-at="2023-01-13T00:27:47 IST" duration-ms="40365">
-      <class name="com.avonet.exam_testCases.AddingAndRemovingItems">
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.avonet.exam_testCases.AddingAndRemovingItems@130161f7]" started-at="2023-01-13T00:27:06 IST" name="login" data-provider="loginData" finished-at="2023-01-13T00:27:47 IST" duration-ms="40333" status="PASS">
+    <test started-at="2023-01-14T10:34:24 IST" name="Add To Application" finished-at="2023-01-14T10:34:34 IST" duration-ms="9222">
+      <class name="com.avonet.exam_testCases.TechnicalAssessment">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.avonet.exam_testCases.TechnicalAssessment@6d763516]" started-at="2023-01-14T10:34:24 IST" name="beforeTest" finished-at="2023-01-14T10:34:28 IST" duration-ms="3624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.avonet.exam_testCases.TechnicalAssessment@6d763516]" started-at="2023-01-14T10:34:28 IST" name="login" data-provider="loginData" finished-at="2023-01-14T10:34:34 IST" duration-ms="5522" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,7 +27,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-      </class> <!-- com.avonet.exam_testCases.AddingAndRemovingItems -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.avonet.exam_testCases.TechnicalAssessment@6d763516]" started-at="2023-01-14T10:34:34 IST" name="afterTest" finished-at="2023-01-14T10:34:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.avonet.exam_testCases.TechnicalAssessment -->
     </test> <!-- Add To Application -->
   </suite> <!-- exam Suite -->
 </testng-results>

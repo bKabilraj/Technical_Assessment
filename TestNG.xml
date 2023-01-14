@@ -12,7 +12,7 @@
  
 <test name="Add To Application">
 <classes>
-<class name="com.avonet.exam_testCases.AddingAndRemovingItems"/>
+<class name="com.avonet.exam_testCases.TechnicalAssessment"/>
 </classes>
 </test>
 
